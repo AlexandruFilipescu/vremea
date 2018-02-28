@@ -16,7 +16,7 @@ class UI {
     this.location.textContent = weather.display_location.full;
     this.desc.textContent = weather.weather;
     this.string.textContent = weather.temperature_string;
-    this.icon.setAttribute('src', weather.icon_url);
+   
     this.humidity.textContent = `Umezeală Relativă ${weather.relative_humidity}`;
     this.feelsLike.textContent = `Se simte ca și: ${weather.feelslike_c}°C`;
     this.dewpoint.textContent = `Punct de Condensare ${weather.dewpoint_c}°C`;
